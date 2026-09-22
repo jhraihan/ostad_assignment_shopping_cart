@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Amazon Ember", "Helvetica Neue", Arial, sans-serif;
+  color: #0f1111;
+  background-color: #eaeded;
+}
+
+button {
+  font-family: inherit;
+}
+
+img {
+  display: block;
+}

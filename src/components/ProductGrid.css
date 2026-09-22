@@ -1,0 +1,27 @@
+.product-grid-section {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 24px 16px 60px;
+}
+
+.results-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #0f1111;
+  margin: 0 0 4px;
+}
+
+.results-subtitle {
+  font-size: 13px;
+  color: #565959;
+  margin: 0 0 20px;
+}
+
+.product-grid {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border: 1px solid #e7e7e7;
+  border-radius: 4px;
+  overflow: hidden;
+}

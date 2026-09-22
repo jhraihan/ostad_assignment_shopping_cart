@@ -1,0 +1,139 @@
+.header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  background-color: #131921;
+  padding: 10px 16px;
+  color: #fff;
+  flex-wrap: nowrap;
+}
+
+.header-logo {
+  flex-shrink: 0;
+}
+
+.logo-text {
+  font-size: 22px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.header-delivery {
+  display: none;
+  align-items: center;
+  gap: 4px;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+
+.delivery-icon {
+  font-size: 18px;
+}
+
+.delivery-text {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.1;
+}
+
+.delivery-label {
+  font-size: 12px;
+  color: #ccc;
+}
+
+.delivery-location {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.header-search {
+  flex: 1;
+  display: flex;
+  min-width: 0;
+}
+
+.header-search input {
+  flex: 1;
+  min-width: 0;
+  border: none;
+  padding: 10px 12px;
+  border-radius: 4px 0 0 4px;
+  font-size: 14px;
+  outline: none;
+}
+
+.header-search button {
+  background-color: #febd69;
+  border: none;
+  padding: 0 14px;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.header-account,
+.header-orders {
+  display: none;
+  flex-direction: column;
+  line-height: 1.2;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.account-greeting {
+  font-size: 12px;
+  color: #fff;
+}
+
+.account-label {
+  font-size: 14px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.header-cart {
+  display: flex;
+  align-items: flex-end;
+  gap: 4px;
+  background: none;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  position: relative;
+  flex-shrink: 0;
+  padding: 4px;
+}
+
+.cart-icon {
+  font-size: 26px;
+}
+
+.cart-label {
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: lowercase;
+}
+
+.cart-badge {
+  position: absolute;
+  top: -6px;
+  left: 14px;
+  background-color: #f08804;
+  color: #131921;
+  font-weight: 700;
+  font-size: 12px;
+  min-width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (min-width: 700px) {
+  .header-delivery,
+  .header-account,
+  .header-orders {
+    display: flex;
+  }
+}
